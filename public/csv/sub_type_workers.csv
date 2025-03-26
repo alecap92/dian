@@ -1,0 +1,11 @@
+1	No Aplica	00
+2	Dependiente pensionado por vejez activo	01
+3	Independiente pensionado por vejez activo	02
+4	Cotizante no obligado a cotizar a pensión por edad	03
+5	Cotizante con requisitos cumplidos para pensión	04
+6	Cotizante a quien se le ha reconocido indemnización sustitutiva o devolución de saldos	12
+7	Cotizante perteneciente a un régimen de exceptuado de pensiones a entidades autorizadas para recibir aportes exclusivamente de un grupo de sus propios trabajadores	16
+8	Cotizante pensionado con mesada superior a 25 smlmv	18
+9	Residente en el exterior afiliado voluntario al sistema general de pensiones y/o afiliado	19
+10	Conductores del servicio público de transporte terrestre automotor individual de pasajeros en vehículos taxi decreto 1047 de 2014	20
+11	Conductores servicio taxi no aporte pensión dec. 1047	21

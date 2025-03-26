@@ -1,0 +1,33 @@
+#REQUISITOS:
+- LARAGON
+- VISUAL STUDIO CODE
+- POSTMAN
+- PHP 7.4
+
+https://laragon.org/download/index.html
+https://www.postman.com/downloads/
+https://code.visualstudio.com/docs/?dv=win
+
+Para tener otra versiones de PHP en tu Laragon:
+https://villagrabaez.medium.com/actualizar-php-a-la-versi%C3%B3n-7-4-en-laragon-75f3546114f1
+
+#COMANDOS DE INSTALACION (usar la terminal de laragon):
+
+git config --global http.sslverify false
+git clone https://gitlab.buho.la/facturalatam/co-apidian2024.git apidian
+cd apidian
+cp .env.example .env
+rm composer.lock
+composer install
+php artisan config:cache && php artisan cache:clear
+php artisan key:generate
+php artisan migrate --seed
+unzip storage.zip
+chmod -R 777 storage
+chmod -R 777 bootstrap/cache
+chmod -R 777 vendor/mpdf/mpdf
+php artisan storage:link
+php artisan config:cache && php artisan config:clear && php artisan cache:clear
+urn_on.bat
+
+
